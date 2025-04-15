@@ -1,0 +1,1 @@
+picoCTF{wow_this_do_be_a_flag}
