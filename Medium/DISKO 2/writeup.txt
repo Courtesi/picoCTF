@@ -1,0 +1,6 @@
+1. Unzip disko-2.dd.
+2. Inspect the file with <file disko-2.dd>.
+3. List available partitions with <fdisk disko-2.dd>.
+4. Extract partition 1 with <dd if=disko-2.dd of=part1.img bs=512 skip=2048 count=51200>.
+5. Look at the strings in part1.img with <strings part1.img | grep "picoCTF">.
+6. Done!
